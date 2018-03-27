@@ -1,0 +1,45 @@
+{
+  "name": "webpacktest",
+  "version": "1.0.0",
+  "description": "exercise for webpack",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "server": "webpack-dev-server --open",
+    "build": "NODE_ENV=production webpack --config ./webpack.production.config.js --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aazhu111/webpackTest.git"
+  },
+  "keywords": [
+    ""
+  ],
+  "author": "huxiang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aazhu111/webpackTest/issues"
+  },
+  "homepage": "https://github.com/aazhu111/webpackTest#readme",
+  "devDependencies": {
+    "autoprefixer": "^7.1.2",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-react-transform": "^2.0.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^0.28.5",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^2.30.1",
+    "postcss-loader": "^2.0.6",
+    "react-transform-hmr": "^1.0.4",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.5.5"
+  },
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
+}
